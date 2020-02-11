@@ -4,7 +4,7 @@ function persistence(num) {
   let finalnumber = 1
   let count_array = []
 
-  while(number.toString().split("").length >= 2){
+  while(number.toString().length >= 2){
     number.toString().split("").forEach(element =>{
       finalnumber *= element
     })
